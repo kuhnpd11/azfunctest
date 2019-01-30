@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "messages",
+      "direction": "in",
+      "path": "my-metrics-linux-vm",
+      "connection": "golive"
+    }
+  ],
+  "disabled": true
+}

@@ -1,0 +1,18 @@
+{
+    "time": "2017-06-02T17:56:32.0000000Z",
+    "resourceId": "/subscriptions/743f6ed6-83a8-46f0-822d-ea93b953952d/resourceGroups/linuxDevRg/providers/Microsoft.Compute/virtualMachines/vm",
+    "properties": {
+        "ident": "sudo",
+        "Ignore": "syslog",
+        "Facility": "authpriv",
+        "Severity": "info",
+        "EventTime": "2017-06-02T17:56:32+0000",
+        "SendingHost": "127.0.0.1",
+        "Msg": "pam_unix(sudo:session): session opened for user root by greg(uid=0)",
+        "hostname": "vm",
+        "FluentdIngestTimestamp": "2017-06-02T17:56:32Z"
+    },
+    "category": "authpriv",
+    "level": "info",
+    "operationName": "LinuxSyslogEvent"
+}

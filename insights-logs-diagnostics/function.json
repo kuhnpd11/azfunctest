@@ -5,7 +5,7 @@
       "name": "messages",
       "direction": "in",
       "path": "insights-logs-diagnostics",
-      "connection": "sbConnectionGolive"
+      "connection": "eventHubConnectionString"
     }
   ],
   "disabled": false
